@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    width: 700px;
+    margin: 0 auto;
+    border: solid 1px black;
+
+    
+}
+ul {
+    list-style: none;
+    padding: 0 ;
+    margin: 0%;
+    background-color: rgb(255, 232, 254);
+    position: fixed;
+    width: 200px;
+    margin-top: 300px;
+    
+}
+.wee {
+    border: solid 1px black;
+    height: 18px;
+    margin-top: auto;
+    font-size: 10px;
+    position: fixed;
+    margin-top: 769px;
+    width: 200px;
+    
+}
+ul li {
+    border: solid 1px black;
+}
+aside {
+    width: 200px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 228, 255);
+
+}
+footer {
+    display: none;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    background-color: rgb(252, 235, 255);
+}
+.my {
+    margin: 0;
+}
+h2 {
+    background-color: rgb(250, 227, 255);
+    margin-bottom: 0;
+}
+
+.hh2 {
+    margin: 0;
+}
+.ssy {
+    width: 100%;
+    height: 600px;
+}
+h3 {
+    background-color: rgb(255, 224, 251);
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.llo {
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+h5 {
+    margin: 0;
+    font-size: 20px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+
+}
+
+
+
+@media screen and (max-width: 800px){
+    body {
+        height: 1500px;
+        flex-direction: column;
+    }
+    main {
+        width: 100%;
+        flex: 1;
+    }
+    footer {
+        display: block  ;
+        margin-bottom: 3px;
+    }
+
+    aside {
+        position: fixed;
+        background-color: rgba(240, 255, 255, 0);
+        
+    }
+    ul {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    li {
+        flex: 1;
+    }
+    .ssy {
+        height: 300px;
+    }
+    footer {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    ul {
+        background-color: rgba(255, 233, 250, 0.986);
+    }
+}
